@@ -1,0 +1,86 @@
+@media screen and (max-width:576px) {
+    .desktop-nav {
+        display: none;
+    }
+
+    .tab-nav {
+        display: block !important;
+    }
+
+    .banner-Img {
+        height: 150px;
+    }
+
+    .team-heading p {
+        font-size: 16px;
+        font-weight: 400;
+        color: #052963;
+        margin-bottom: 0px;
+    }
+    .about-heading h1 {
+        font-size: 24px;
+    }
+    .gallery-heading h1 {
+        font-size: 24px;
+    }
+    .team-heading h1 {
+        font-size: 24px;
+    }
+    .address-heading h1 {
+        font-size: 24px;
+    }
+    .address-heading h2 {
+        font-size: 20px;
+    }
+    .address-heading p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .team-details p {    
+        font-size: 14px;    
+    }
+    .practice-area-box {
+        min-height: auto;
+    }
+    .practice-heading a {
+        width: 140px;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:767px) {
+    .desktop-nav {
+        display: none;
+    }
+
+    .tab-nav {
+        display: block !important;
+    }
+
+    .banner-Img {
+        height: 250px;
+    }
+    .practice-area-box {
+        min-height: auto;
+    }
+    
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    
+    .desktop-nav {
+        display: none;
+    }
+
+    .tab-nav {
+        display: block !important;
+    }
+
+    .banner-Img {
+        height: 300px;
+    }
+   
+    .minheight {
+        min-height: 520px !important;
+    }
+    
+}

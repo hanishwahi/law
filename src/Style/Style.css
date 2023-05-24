@@ -1,0 +1,181 @@
+.tab-nav{
+    display: none;
+}
+
+.about-heading h1{
+font-size: 30px;
+font-weight: 700;
+color: #052963;
+}
+ .nav-link:hover{
+   color: red !important;
+}
+ 
+.desk-nav:hover{
+    border-bottom: 1px solid red;
+}
+.nav-canwa a{
+    color: #052963 !important;
+    font-weight: 700;
+}
+
+.navbar {
+    padding: 0 !important;
+}
+
+.desk-phone{
+    color: #052963;
+}
+.desk-phone:hover{
+    color: red ;
+}
+
+  i.fa-solid.fa-bars.menu-bar {
+    font-size: 24px;
+}
+
+ 
+  .navbar-light .navbar-nav .nav-link {
+    color: #052963;
+}
+
+.banner-Img {
+    height: 450px;
+}
+
+.banner-content{
+    position: absolute;
+    
+}
+
+.banner-content h1{
+color: #000;
+font-size: 18px;
+font-weight: 400;
+
+ }
+.banner-content p{
+color: #000;
+font-size: 18px;
+font-weight: 400;
+ }
+.team-heading h1{
+    font-size: 30px;
+font-weight: 700;
+color: #052963;
+}
+.team-heading p{
+    font-size: 24px;
+font-weight: 400;
+color: #052963;
+margin-bottom: 0px;
+}
+.team-details p a{
+    text-decoration: none;
+    color: #052963;
+    font-weight: 500 !important;
+}
+.team-details p {
+    text-decoration: none;
+    color: #052963;
+    font-weight: 500 !important;
+}
+
+.gallery-heading h1{
+font-size: 30px;
+font-weight: 700;
+color: #fff;
+}
+.address-heading h1{
+font-size: 30px;
+font-weight: 700;
+color: #052963;
+
+}
+.address-heading h2{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 40px;
+ }
+.address-heading h3{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.address-heading p{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.special-note h1{
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 50px;
+}
+.special-note h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+.special-note p{
+    font-size: 17px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.practice-heading h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    }
+.practice-heading h3{
+    font-size: 17px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 25px;
+     }
+
+.practice-heading a{
+    font-size: 17px;
+    color: #052963;
+    text-decoration: none;
+    background-color: #fff;
+    width: 130px;
+    padding: 6px 12px;
+} 
+
+.practice-area-heading h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: #052963;
+    }
+.practice-area-heading h3{
+    font-size: 17px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #052963;
+    }
+
+
+.practice-area-heading ul li{
+font-size: 22px;
+font-weight: 700;
+color: #052963;
+}
+
+.practice-area-box{
+    min-height: 295px;
+}
+.practice-area-box h5{
+font-weight: bold;
+}
+
+ 
+
+.minheight {
+    min-height: 328px !important;
+}
