@@ -25,7 +25,7 @@ function Team() {
                                         <h5 className=" fw-bold" style={{ color: "#052963" }}>Parikshit Sharma</h5>
                                         <p className="card-text mb-1 fw-bold" style={{ color: "#052963" }}> B.A, LL.B, LL.M</p>
                                         <p className="card-text mb-1"><i style={{ color: "green" }} className="fa-solid fa-phone"></i> <Link to="tel:8410746826">+91 8410746826</Link></p>
-                                        <p className="card-text mb-1"><i style={{ color: "#af2929" }} className="fa-solid fa-envelope"></i> advparikshitchandkiram@gmail.com</p>
+                                        <p className="card-text mb-1"><i style={{ color: "#af2929" }} className="fa-solid fa-envelope"></i> <Link to="mailto:advparikshitchandkiram@gmail.com">advparikshitchandkiram@gmail.com</Link></p>
                                     </div>
                                 </div>
                                 <div className="card-body">
@@ -47,15 +47,14 @@ function Team() {
                                         <h5 className=" fw-bold" style={{ color: "#052963" }}>Ajay Chauhan</h5>
                                         <p className="card-text mb-1 fw-bold" style={{ color: "#052963" }}>LL.B, MCA</p>
                                         <p className="card-text mb-1"><i style={{ color: "green"}} className="fa-solid fa-phone"></i> <Link to="tel:9910089550">+91 9910089550</Link></p>
-                                        <p className="card-text mb-1"><i style={{ color: "#af2929" }} className="fa-solid fa-envelope"></i> advajayrana@rediffmail.com</p>
+                                        <p className="card-text mb-1"><i style={{ color: "#af2929" }} className="fa-solid fa-envelope"></i><Link to="mailto:advajayrana@rediffmail.com"> advajayrana@rediffmail.com</Link></p>
                                     </div>
                                 </div>
                                 <div className="card-body ">
                                     <ul className="list-group list-group-flush">
                                         <li className="list-group-item"> Delhi High Court & District Court</li>
                                         <li className="list-group-item"> </li>
-                                        {/* <li className="list-group-item">(International Council of Jurists) London </li> */}
-                                    </ul>
+                                     </ul>
                                 </div>
                             </div>
                         </div>

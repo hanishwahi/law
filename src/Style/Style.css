@@ -174,8 +174,23 @@ color: #052963;
 font-weight: bold;
 }
 
- 
+.offcanvas-start {
+    width: 360px;
+  
+}
+
+.desk-name{
+    display: none;
+}
 
 .minheight {
     min-height: 328px !important;
+}
+
+.call-icon{
+    background-color: green;
+    color: #fff;
+    padding: 13px;
+    border-radius: 50%;
+    font-size: 22px;
 }

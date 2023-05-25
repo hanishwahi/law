@@ -45,6 +45,9 @@
     .practice-heading a {
         width: 140px;
     }
+    .desk-name{
+        display: block;
+    }
 }
 
 @media screen and (min-width:577px) and (max-width:767px) {
@@ -61,6 +64,9 @@
     }
     .practice-area-box {
         min-height: auto;
+    }
+    .desk-name{
+        display: block;
     }
     
 }
@@ -81,6 +87,9 @@
    
     .minheight {
         min-height: 520px !important;
+    }
+    .desk-name{
+        display: block;
     }
     
 }
