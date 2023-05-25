@@ -161,10 +161,16 @@ color: #052963;
     }
 
 
-.practice-area-heading ul li{
-font-size: 22px;
+.practice-area-heading ol li{
+font-size: 20px;
 font-weight: 700;
 color: #052963;
+}
+.practice-area-heading p{
+    font-weight: 400;
+    color: #000;
+    font-size: 16px;
+    text-align: justify;
 }
 
 .practice-area-box{

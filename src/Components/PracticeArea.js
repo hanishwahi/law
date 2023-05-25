@@ -19,12 +19,10 @@ function PracticeArea() {
 
                         </div>
                         <div className='row mb-5'>
-
                             <div class="container">
                                 <div class="row row-cols-1 row-cols-md-3 g-4">
                                     <div class="col">
-                                        <div class="card">
-                                            
+                                        <div class="card">                                           
                                             <div class="card-body p-lg-5 practice-area-box">
                                                 <h5 class="card-title">Drug Offences</h5>
                                                 <p class="card-text">
@@ -34,8 +32,7 @@ function PracticeArea() {
                                         </div>
                                     </div>
                                     <div class="col">
-                                        <div class="card">
-                                             
+                                        <div class="card"> 
                                             <div class="card-body p-lg-5 practice-area-box">
                                                 <h5 class="card-title">Sexual Offences</h5>
                                                 <p class="card-text">

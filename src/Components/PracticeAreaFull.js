@@ -1,5 +1,5 @@
 import React from 'react'
-import Banner from './Components/Banner'
+import Banner from './Banner'
 
 function PracticeAreaFull() {
    
@@ -11,10 +11,10 @@ function PracticeAreaFull() {
                 <div className='container'>
                     <div className='row practice-area-heading py-md-4 pb-3 text-center justify-content-center'>
                         <h1>Our Practice Areas</h1>
-                        <h3>We represent our clients’ best interests, providing personal legal assistance, handling business affairs, and representing them in disputes before government and administrative agencies.</h3>
+                        <h3>We represent our client's best interests, providing personal legal assistance, handling business affairs, and representing them in disputes before government and administrative agencies.</h3>
                     </div>
                     <div className='practice-area-heading'>
-                        <ul>
+                        <ol>
                             <li>Drug Offences</li>
                             <p>Our lawyer offers legal expertise, investigates the case, negotiates plea bargains, represents the defendant in court, advocates for fair sentencing, and guides through the appeals process for our clients.</p>
                             <li>Sexual Offences</li>
@@ -27,9 +27,8 @@ function PracticeAreaFull() {
                             <p>We handle drunk driving and serious driving offences, analysing evidence, challenging breathalyser results, negotiating pleas, crafting defence strategies, and representing clients in court to minimise penalties and achieve favourable outcomes.</p>
                             <li>Bail applications</li>
                             <p>Our assistance in the bail process includes advocating for release, presenting eligibility arguments, gathering evidence, challenging conditions, and negotiating for a reasonable bail amount with the prosecution.</p>
-                        </ul>
+                        </ol>
                     </div>
-
                 </div>
             </div>
 
