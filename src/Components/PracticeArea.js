@@ -15,15 +15,14 @@ function PracticeArea() {
                     <div className='container'>
                         <div className='row practice-heading pb-3 text-center justify-content-center'>
                             <h1>Our Practice Areas</h1>
-                            <h3>We represent our clients’ best interests, providing personal legal assistance, handling business affairs, and representing them in disputes before government and administrative agencies.</h3>
-
+                            <h3>We represent our client's best interests, providing personal legal assistance, handling business affairs, and representing them in disputes before government and administrative agencies.</h3>
                         </div>
                         <div className='row mb-5'>
                             <div class="container">
                                 <div class="row row-cols-1 row-cols-md-3 g-4">
                                     <div class="col">
-                                        <div class="card">                                           
-                                            <div class="card-body p-lg-5 practice-area-box">
+                                        <div class="card">
+                                            <div class="card-body p-lg-5 practice-area-box shadow">
                                                 <h5 class="card-title">Drug Offences</h5>
                                                 <p class="card-text">
                                                     Our lawyer offers legal expertise, investigates the case, negotiates plea bargains, represents the defendant in court, advocates for fair sentencing, and guides through the appeals process for our clients.
@@ -32,7 +31,7 @@ function PracticeArea() {
                                         </div>
                                     </div>
                                     <div class="col">
-                                        <div class="card"> 
+                                        <div class="card">
                                             <div class="card-body p-lg-5 practice-area-box">
                                                 <h5 class="card-title">Sexual Offences</h5>
                                                 <p class="card-text">
@@ -50,7 +49,6 @@ function PracticeArea() {
                                             </div>
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
                         </div>

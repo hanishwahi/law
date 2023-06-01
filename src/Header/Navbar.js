@@ -23,13 +23,8 @@ function Navbar() {
             <div className="container-fluid bg-white sticky-top  border-bottom">
                 <div className="container">
                     <div className="row align-items-center py-3">
-                        <div className="col-lg-1 col-md-8 col-sm-9 col-8">
-                            <Link onClick={scrollToTop}
-                                to="/"><img style={
-                                    { width: "60px" }
-                                }
-                                    src={Logo2}
-                                    alt='' /></Link>
+                        <div className="col-lg-1 col-md-7 col-sm-7 col-3">
+                            <Link onClick={scrollToTop} to="/"><img style={{ width: "60px" }} src={Logo2} alt='' /></Link>
                         </div>
                         <div className="col-lg-9 col-md-1 desktop-nav">
                             <nav className="navbar navbar-expand-lg navbar-light">
@@ -68,36 +63,32 @@ function Navbar() {
                             </nav>
                         </div>
 
-                        <div className="col-lg-2 col-md-3 col-sm-2 col-2 text-end">
-
+                        <div className="col-lg-2 col-md-3 col-sm-2 col-2 text-end desktop-nav">
                             {/* <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>   */}
                             {/* <Link to="/" className="btn shadow-none border">Search</Link> */}
                             <Link to="tel: 9910089550" className='text-decoration-none desktop-nav fw-bold desk-phone'>M. 9910089550</Link>
+                        </div>
 
+                        <div className='col-md-4 col-sm-4 col-6 main-title-phone text-end'>
+                              <h5 className=" fst-italic fw-bold" style={{ color: "#052963" }}>Ajay Chauhan</h5>
                         </div>
 
                         {/* canwaoff */}
 
 
-                        <div className='tab-nav col-md-1 col-sm-1 col-1'>
-                            <a className="btn shadow-none" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-                                <i style={
-                                    { color: "#052963" }
-                                }
-                                    className="fa-solid fa-bars menu-bar"></i>
+                        <div className='tab-nav col-md-1 col-sm-1 col-3  text-end'>
+                            <a className="btn shadow-none " data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                                <i style={{ color: "#052963" }}className="fa-solid fa-bars menu-bar"></i>
                             </a>
 
 
                             <div className="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                                 <div className="offcanvas-header  border-bottom">
                                     <h5 className="offcanvas-title fst-italic fw-bold" id="offcanvasExampleLabel"
-                                        style={
-                                            { color: "#052963" }
-                                        }>
-                                        Ajay Chauhan</h5>
+                                        style={{ color: "#052963" }}>Ajay Chauhan</h5>
                                     <button type="button" className="btn-close text-reset shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                 </div>
-                                <div className="offcanvas-body">
+                                <div className="offcanvas-body text-start">
 
                                     <ul className="navbar-nav mb-2 mb-lg-0 gap-lg-2 fw-bold"
                                         style={

@@ -1,7 +1,7 @@
- import './App.css';
- import { BrowserRouter, Routes, Route } from 'react-router-dom';
- import './Style/Style.css'
- import './Style/Responsive.css'
+import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import './Style/Style.css'
+import './Style/Responsive.css'
 import Header from './Header/Header';
 import Home from './Components/Home';
 import Footer from './Footer/Footer'

@@ -18,7 +18,7 @@
         margin-bottom: 0px;
     }
     .about-heading h1 {
-        font-size: 24px;
+        font-size: 21px;
     }
     .gallery-heading h1 {
         font-size: 24px;
@@ -45,8 +45,17 @@
     .practice-heading a {
         width: 140px;
     }
-    .desk-name{
+    .practice-heading h1 {
+        font-size: 24px;
+    }
+    .practice-heading h3 {
+        font-size: 15px;
+    }
+    .main-title-phone{
         display: block;
+    }
+    .special-note h2 {
+        font-size: 21px;
     }
 }
 
@@ -65,7 +74,7 @@
     .practice-area-box {
         min-height: auto;
     }
-    .desk-name{
+    .main-title-phone{
         display: block;
     }
     
@@ -88,7 +97,7 @@
     .minheight {
         min-height: 520px !important;
     }
-    .desk-name{
+    .main-title-phone{
         display: block;
     }
     

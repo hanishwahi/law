@@ -145,6 +145,7 @@ color: #052963;
     width: 130px;
     padding: 6px 12px;
 } 
+ 
 
 .practice-area-heading h1{
     font-size: 30px;
@@ -185,7 +186,7 @@ font-weight: bold;
   
 }
 
-.desk-name{
+.main-title-phone{
     display: none;
 }
 
@@ -199,4 +200,13 @@ font-weight: bold;
     padding: 13px;
     border-radius: 50%;
     font-size: 22px;
+}
+
+.call-icon:hover{
+    background-color: #fff;
+    color: green;
+    padding: 13px;
+    border-radius: 50%;
+    font-size: 22px;
+    border: 1px solid green;
 }
