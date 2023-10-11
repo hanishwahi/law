@@ -8,26 +8,7 @@ import Banner4 from '../Images/banner4.jpg'
 function Banner() {
   return (
     <>
-
-      {/* <div className="container-fluid pb-4" style={{background:"#052963"}}>
-            <div className="container py-5">
-                <div className="row text-center py-3  banner-content">
-                    <h1 className="text-white fw-bold">Free Legal Advice Online <br/>
-                            From Top Rated Lawyers</h1>
-                    <p>Choose from over 10,000 lawyers across 700+ cities in India</p>
-                </div>
-                <div className='row justify-content-center'>
-                          <div className='col-md-4 col-lg-3 col-sm-6 col-12 text-end mb-3'>
-                            <Link to={"/"} className="btn btn-outline-light shadow-none w-100">TALK TO A LAWYER</Link>
-                          </div>
-                          <div className='col-md-4 col-lg-3 col-sm-6 col-12'>
-                          <Link to={"/"} className="btn btn-outline-light shadow-none w-100">ASK A FREE QUESTION</Link>
-                          </div>
-                </div>
-            </div>
-</div> */}
-
-      <div className="container-fluid pb-4 px-0 ">
+ <div className="container-fluid pb-4 px-0 ">
         <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
           <div className="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>

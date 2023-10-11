@@ -1,5 +1,5 @@
 import './App.css';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import './Style/Style.css'
 import './Style/Responsive.css'
 import Header from './Header/Header';
@@ -12,14 +12,14 @@ import PracticeAreaFull from './Components/PracticeAreaFull';
 function App() {
   return (
     <>
-      <HashRouter>
+      <BrowserRouter>
         <Header />
         <Routes>
           <Route index element={<Home />} />
           <Route path='/our-practice-area' element={<PracticeAreaFull />} />
         </Routes>
         <Footer />
-      </HashRouter>
+      </BrowserRouter>
     </>
   );
 }
